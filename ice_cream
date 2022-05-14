@@ -1,0 +1,24 @@
+type=['stick','cone','cup']
+flavour=['chocolate','vanilla','strawberry']
+cost=[20,25,30]
+k=0
+h=[]
+print("the menu for icecreams :")
+for i in type:
+    for j in flavour:
+        h.append(k)
+        print(k ,i,j)
+        k=k+1
+print('choose a icecream:')
+cho=int(input())
+if cho==1 or cho==4 or cho==7:
+    print("cost is  Rs.")
+    print(20)
+elif cho==2 or cho==5 or cho==8:
+    print("cost is  Rs.")
+    print(25)
+elif cho==3 or cho==6 or cho==9:
+    print("cost is  Rs.")
+    print(30)
+else:
+    print("Please,check your option||!")
